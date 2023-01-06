@@ -1,0 +1,14 @@
+
+
+.faq-question {
+    font-weight: bold;
+}
+
+.faq-question::before {
+    content: "Q: ";
+}
+
+.faq-answer::before {
+    content: "A: ";
+    font-weight: bold;
+}

@@ -1,0 +1,123 @@
+
+.minted {
+    font-size: 0.6em;
+}
+
+
+.minted-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: small;
+    margin-bottom: 0;
+}
+
+.minted-text {
+    font-weight: lighter;
+    font-size: x-small;
+}
+
+.minted-caption {
+    margin-top: 75%;
+    background-color: #00000030;
+    padding: 4px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.card-minted:hover .minted-caption {
+    opacity: 1;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 576px) {
+    .minted-caption {
+        margin-top: 80%;
+    }
+
+    .minted-title {
+        font-size:large;
+    }
+
+    .minted-text {
+        font-size: medium;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+    .minted-caption {
+        margin-top: 80%;
+    }
+
+    .minted-title {
+        font-size:large;
+    }
+
+    .minted-text {
+        font-size: medium;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .minted-caption {
+        margin-top: 80%;
+    }
+
+    .minted-title {
+        font-size: medium;
+    }
+
+    .minted-text {
+        font-size: small;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .minted-caption {
+        margin-top: 75%;
+    }
+
+    .minted-title {
+        font-size: medium;
+    }
+
+    .minted-text {
+        font-size: small;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .minted-caption {
+        margin-top: 75%;
+    }
+
+    .minted-title {
+        font-size: small;
+    }
+
+    .minted-text {
+        font-size: x-small;
+    }
+}
+
+/* X-Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1400px) {
+    .minted-caption {
+        margin-top: 78%;
+    }
+
+    .minted-title {
+        font-size: small;
+    }
+
+    .minted-text {
+        font-size: x-small;
+    }
+}

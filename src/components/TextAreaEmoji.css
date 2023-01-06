@@ -1,0 +1,51 @@
+/* Styles go here */
+
+.tae_cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.tae_popover {
+    position: absolute;
+    z-index: 2;
+}
+
+.tae_select {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 14px;
+    top: 6px;
+}
+
+
+/* Fix bootstarp bug https://github.com/twbs/bootstrap/issues/32800 */
+.form-floating.input_textarea label {
+    min-width: 90%;
+}
+
+.form-floating.input_textarea label::before {
+    content: "";
+    position: absolute;
+    top: 0.9em;
+    z-index: -1;
+    width: 100%;
+    height: 1.2em;
+    background-color: #f7f7f9;
+    box-shadow: 0 0 8px 4px #f7f7f9;
+}
+
+
+.form-floating.input_textarea > .form-control:focus ~ label, .form-floating.input_textarea > .form-control:not(:placeholder-shown) ~ label, .form-floating.input_textarea > .form-select ~ label {
+    opacity: 0.95;
+    color: gray;
+}
+
+textarea.textareaEmoji {
+    min-height: 7rem;
+}

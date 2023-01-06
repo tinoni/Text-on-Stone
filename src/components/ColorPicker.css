@@ -1,0 +1,30 @@
+/* Styles go here */
+.cp_selectedColor {
+    width: 20px;
+    height: 20px;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.1);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.cp_colorPicker {
+    position: absolute;
+    z-index: 10;
+}
+
+.cp_cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.cp_popover {
+    position: absolute;
+    zIndex: 2;
+}
+
+.swatches-picker.cp_colorPicker > div > div {
+    background-color: #151617;
+}
